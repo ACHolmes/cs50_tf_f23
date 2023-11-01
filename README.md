@@ -10,9 +10,9 @@ There are folders for:
 
     * These contain all materials I've created for section that week, including slides, exercises and anything else I come up with!
 
-    * Will typically be structured with subfolders such as `slides`, `exercises`, `lab` and `solutions`.
+    * Will typically be structured with subfolders such as `slides`, `resources`, `exercises` and `extension` (if applicable, will see how this idea goes).
 
-    * `slides`, `exercises` and `lab` should contain all the content for the section before section starts. `solutions` will contain solutions to exercises either shortly after lab (if we finish everything) or slightly delayed in case I want to give you time to try them on your own first.
+    * `slides`, `resources` and `exercises` should contain all the content for the section before section starts. `solutions` or `sols` will contain solutions to exercises either shortly after lab (if we finish everything) or slightly delayed in case I want to give you time to try them on your own first.
 * `utils`, which contains a number of utilities that may or may not be of use to you. For example, the powerpoint theme I made in `utils`, in case you'd like to use it.
 
 * `fall_2022`, which contains my teaching materials from Fall 2022. As with this year, there are solutions to exercises here, and I will try to display them (remove from `.gitignore`) in line with our progress this semester.
