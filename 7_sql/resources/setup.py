@@ -71,14 +71,13 @@ setup.create_table("partnerships", config="""
                                             )
                                         """)
 
-setup.insert("partnerships", columns="(poke_id, trainer_id)", values="(1, 3)")
-setup.insert("partnerships", columns="(poke_id, trainer_id)", values="(2, 2)")
-setup.insert("partnerships", columns="(poke_id, trainer_id)", values="(3, 2)")
-setup.insert("partnerships", columns="(poke_id, trainer_id)", values="(4, 3)")
-setup.insert("partnerships", columns="(poke_id, trainer_id)", values="(5, 4)")
-setup.insert("partnerships", columns="(poke_id, trainer_id)", values="(6, 3)")
-setup.insert("partnerships", columns="(poke_id, trainer_id))", values="(7, 1)")
-
+setup.insert("partnerships", columns="(trainer_id, poke_id)", values="(3, 1)")
+setup.insert("partnerships", columns="(trainer_id, poke_id)", values="(2, 2)")
+setup.insert("partnerships", columns="(trainer_id, poke_id)", values="(2, 3)")
+setup.insert("partnerships", columns="(trainer_id, poke_id)", values="(3, 4)")
+setup.insert("partnerships", columns="(trainer_id, poke_id)", values="(4, 5)")
+setup.insert("partnerships", columns="(trainer_id, poke_id)", values="(3, 6)")
+setup.insert("partnerships", columns="(trainer_id, poke_id)", values="(1, 7)")
 
 setup.print("pokemon")
 setup.print("trainers")
